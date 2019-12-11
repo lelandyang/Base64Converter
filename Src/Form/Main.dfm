@@ -26,9 +26,6 @@ object Frm_Main: TFrm_Main
     TabOrder = 0
     object tbStrB64: TTabSheet
       Caption = #23383#31526#20018#36716#25442
-      ExplicitLeft = 0
-      ExplicitTop = 31
-      ExplicitHeight = 173
       object lblPlain: TLabel
         Left = 0
         Top = 5
@@ -63,8 +60,6 @@ object Frm_Main: TFrm_Main
     object tbFileB64: TTabSheet
       Caption = #25991#20214#36716#25442
       ImageIndex = 1
-      ExplicitWidth = 281
-      ExplicitHeight = 165
       object edtFile: TEdit
         Left = 16
         Top = 14
@@ -87,7 +82,6 @@ object Frm_Main: TFrm_Main
         Top = 51
         Width = 328
         Height = 94
-        ReadOnly = True
         ScrollBars = ssVertical
         TabOrder = 2
       end
